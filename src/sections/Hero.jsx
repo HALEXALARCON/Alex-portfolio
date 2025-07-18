@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-black via-gray-900 to-black">
+    <section className="h-screen flex flex-col justify-center items-center text-center bg-white dark:bg-gradient-to-b dark:from-black dark:via-gray-900 dark:to-black text-black dark:text-white transition-colors duration-500">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}

@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen px-4 py-20 bg-black text-white"
+      className="min-h-screen px-4 py-20 bg-white dark:bg-black text-black dark:text-white transition-colors duration-500"
     >
       <h2 className="text-3xl font-bold text-center mb-10">
         Proyectos Destacados
